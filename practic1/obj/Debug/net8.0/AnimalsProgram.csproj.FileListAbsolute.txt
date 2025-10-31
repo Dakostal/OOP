@@ -1,0 +1,14 @@
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.AssemblyInfoInputs.cache
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.AssemblyInfo.cs
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.csproj.CoreCompileInputs.cache
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\bin\Debug\net8.0\AnimalsProgram.exe
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\bin\Debug\net8.0\AnimalsProgram.deps.json
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\bin\Debug\net8.0\AnimalsProgram.runtimeconfig.json
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\bin\Debug\net8.0\AnimalsProgram.dll
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\bin\Debug\net8.0\AnimalsProgram.pdb
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.dll
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\refint\AnimalsProgram.dll
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.pdb
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\AnimalsProgram.genruntimeconfig.cache
+C:\Users\kosen\Desktop\ОмГТУ 2 год\ООП\practic1\obj\Debug\net8.0\ref\AnimalsProgram.dll
