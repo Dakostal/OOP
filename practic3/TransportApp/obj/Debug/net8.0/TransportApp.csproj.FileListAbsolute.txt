@@ -1,0 +1,15 @@
+G:\programs\OOP\practic3\TransportApp\bin\Debug\net8.0\TransportApp.exe
+G:\programs\OOP\practic3\TransportApp\bin\Debug\net8.0\TransportApp.deps.json
+G:\programs\OOP\practic3\TransportApp\bin\Debug\net8.0\TransportApp.runtimeconfig.json
+G:\programs\OOP\practic3\TransportApp\bin\Debug\net8.0\TransportApp.dll
+G:\programs\OOP\practic3\TransportApp\bin\Debug\net8.0\TransportApp.pdb
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.AssemblyInfoInputs.cache
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.AssemblyInfo.cs
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.csproj.CoreCompileInputs.cache
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.sourcelink.json
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.dll
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\refint\TransportApp.dll
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.pdb
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\TransportApp.genruntimeconfig.cache
+G:\programs\OOP\practic3\TransportApp\obj\Debug\net8.0\ref\TransportApp.dll

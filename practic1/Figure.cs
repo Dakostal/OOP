@@ -1,4 +1,3 @@
-// Figure.cs
 using System;
 
 namespace AnimalsProgram;

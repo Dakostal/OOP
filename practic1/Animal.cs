@@ -1,4 +1,3 @@
-// Animal.cs
 using System;
 
 namespace AnimalsProgram;
