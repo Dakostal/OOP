@@ -1,5 +1,7 @@
 namespace ATM.Models;
 
-public sealed class CurrentAccount : Account { }
-public sealed class DebitAccount : Account { }
-public sealed class CreditAccount : Account { }
+public sealed class CurrentAccount : Account
+{
+    public CurrentAccount() : base(0) { } // Пустой конструктор
+    public CurrentAccount(decimal initialBalance) : base(initialBalance) { }
+}

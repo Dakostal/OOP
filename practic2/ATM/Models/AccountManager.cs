@@ -2,15 +2,15 @@ namespace ATM.Models;
 
 public static class AccountManager
 {
-    private static readonly List<Account> Accounts = new();
+    public static readonly List<Account> Accounts = new();
 
-    public static T Create<T>(decimal initial = 0) where T : Account, new()
+    public static T CreateAccount<T>(decimal initialBalance = 0) where T : Account, new()
     {
-        var acc = new T();
-        acc.GetType().GetProperty("Balance")!.SetValue(acc, initial);
-        Accounts.Add(acc);
-        Account.TotalBalance += initial;
-        return acc;
+        var account = new T();
+        account.GetType().GetProperty("Balance")!.SetValue(account, initialBalance);
+        Accounts.Add(account);
+        // TotalBalance обновляется в конструкторе Account
+        return account;
     }
 
     public static DebitAccount? GetDebitAccount() => Accounts.OfType<DebitAccount>().FirstOrDefault();

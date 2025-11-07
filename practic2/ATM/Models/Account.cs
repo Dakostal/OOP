@@ -3,17 +3,17 @@ namespace ATM.Models;
 public abstract class Account
 {
     public decimal Balance { get; protected set; }
-    public static decimal TotalBalance { get; private set; }
+    public static decimal TotalBalance { get; protected set; }
 
-    protected Account(decimal initial = 0)
+    protected Account(decimal initialBalance = 0)
     {
-        Balance = initial;
-        TotalBalance += initial;
+        Balance = initialBalance;
+        TotalBalance += initialBalance;
     }
 
-    public void Deposit(decimal amount)
+    public virtual void Deposit(decimal amount)
     {
-        if (amount <= 0) throw new ArgumentException("Сумма должна быть > 0");
+        if (amount <= 0) throw new ArgumentException("Сумма пополнения должна быть положительной.");
         Balance += amount;
         TotalBalance += amount;
 
@@ -28,14 +28,18 @@ public abstract class Account
         }
     }
 
-    public void Withdraw(decimal amount)
+    public virtual void Withdraw(decimal amount)
     {
-        if (amount > 30000) throw new InvalidOperationException("Макс 30 000 за сеанс");
-        if (amount > Balance) throw new InvalidOperationException("Недостаточно средств");
+        if (amount <= 0) throw new ArgumentException("Сумма снятия должна быть положительной.");
+        if (amount > 30_000) throw new InvalidOperationException("Нельзя снять более 30 000 за сеанс.");
+        if (amount > Balance) throw new InvalidOperationException("Недостаточно средств на счете.");
 
-        var credit = AccountManager.GetCreditAccount();
-        if (this is DebitAccount && credit != null && credit.Balance < -20000)
-            throw new InvalidOperationException("Дебетовый счёт заблокирован");
+        if (this is DebitAccount)
+        {
+            var credit = AccountManager.GetCreditAccount();
+            if (credit != null && credit.Balance < -20_000)
+                throw new InvalidOperationException("Операции с дебетовым счетом запрещены.");
+        }
 
         Balance -= amount;
         TotalBalance -= amount;
@@ -43,6 +47,7 @@ public abstract class Account
 
     public void Transfer(Account to, decimal amount)
     {
+        if (to == null) throw new ArgumentNullException(nameof(to));
         Withdraw(amount);
         to.Deposit(amount);
     }

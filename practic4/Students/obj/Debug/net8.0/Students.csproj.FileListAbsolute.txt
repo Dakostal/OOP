@@ -1,0 +1,15 @@
+G:\programs\OOP\practic4\Students\bin\Debug\net8.0\Students.exe
+G:\programs\OOP\practic4\Students\bin\Debug\net8.0\Students.deps.json
+G:\programs\OOP\practic4\Students\bin\Debug\net8.0\Students.runtimeconfig.json
+G:\programs\OOP\practic4\Students\bin\Debug\net8.0\Students.dll
+G:\programs\OOP\practic4\Students\bin\Debug\net8.0\Students.pdb
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.GeneratedMSBuildEditorConfig.editorconfig
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.AssemblyInfoInputs.cache
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.AssemblyInfo.cs
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.csproj.CoreCompileInputs.cache
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.sourcelink.json
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.dll
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\refint\Students.dll
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.pdb
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\Students.genruntimeconfig.cache
+G:\programs\OOP\practic4\Students\obj\Debug\net8.0\ref\Students.dll
